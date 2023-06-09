@@ -1,0 +1,32 @@
+body {
+    background-image: url(/83105013_2668020153480879_9127001835545034752_o.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.163);
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    height: 8rem;
+    
+  }
+  .navbar a {
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+  }
+  .navbar .link{
+    margin-top: 6rem;
+  }
+  .navbar a:hover {
+    background-color: #333;
+    color: rgb(255, 255, 255);
+  }
+  .navbar img{
+    height: 7.9rem;
+    margin-left: -9rem;
+  }

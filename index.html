@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* CSS for the transparent navbar */
+    .navbar {
+      background-color: transparent;
+      position: fixed;
+      display: flex;
+      justify-content: space-around;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding: 20px;
+      z-index: 100;
+    }
+    
+    /* CSS for the logo image */
+    .navbar img {
+      height: 5rem; /* Adjust the height as needed */
+    }
+    
+    /* CSS for the background image */
+    .hero-image {
+      background-color: rgba(0, 0, 0, 0.559);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100vh;
+    }
+    .navbar a {
+    float: left;
+    display: block;
+    color: #fff;
+    font-size: large;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 3.7rem;    
+}
+
+    
+    /* CSS for the centered text */
+    .centered-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: white;
+      font-size: 36px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <img src="/WhatsApp_Image_2023-06-08_at_11.13.06-removebg-preview.png" alt="Logo">
+    <!-- Add your navigation links here -->
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+  </div>
+  
+  <div class="hero-image">
+    <div class="centered-text">
+      <h1>Welcome to our website!</h1>
+      <p>Discover amazing things here.</p>
+    </div>
+  </div>
+</body>
+</html>
